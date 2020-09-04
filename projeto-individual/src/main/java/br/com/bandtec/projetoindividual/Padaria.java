@@ -20,6 +20,7 @@ public class Padaria extends MargemDeLucro{
         return "Padaria{" +
                 "nome='" + nome + '\'' +
                 ", codBarra=" + codBarra +
+                ", Valor venda=" + valorVenda() +
                 "} " + super.toString();
     }
 

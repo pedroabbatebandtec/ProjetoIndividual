@@ -20,6 +20,7 @@ public class Cosmeticos extends MargemDeLucro{
         return "Cosmeticos{" +
                 "nome='" + nome + '\'' +
                 ", codBarra=" + codBarra +
+                ", Valor venda=" + valorVenda() +
                 "} " + super.toString();
     }
 
